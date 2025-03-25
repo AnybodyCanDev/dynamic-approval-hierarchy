@@ -1,1 +1,1 @@
-# dynamic-approval-hierarch
+# dynamic-approval-hierarchy
