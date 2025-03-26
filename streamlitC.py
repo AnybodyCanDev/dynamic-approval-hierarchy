@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # Database connection
-DB_URL = "postgresql://neondb_owner:npg_EY4dmMAPZ6bN@ep-cool-butterfly-a5mk6awz-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
+DB_URL = "postgresql://neondb_owner:<URL>"
 
 def get_db_connection():
     """Establish a database connection."""
