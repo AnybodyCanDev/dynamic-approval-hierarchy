@@ -15,7 +15,7 @@ model = genai.GenerativeModel("gemini-1.5-pro-latest")
 class InvoiceApproval:
     def __init__(self):
         """Initialize the invoice approval handler with database configuration."""
-        self.db_url = "postgresql://neondb_owner:npg_EY4dmMAPZ6bN@ep-cool-butterfly-a5mk6awz-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
+        self.db_url = "postgresql://neondb_owner:<URL>"
         self.conn = None
         self.cursor = None
         self._connect_db()
